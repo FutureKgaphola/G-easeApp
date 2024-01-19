@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "534881027218",
+    "project_id": "sassa-c2b7f",
+    "storage_bucket": "sassa-c2b7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534881027218:android:568491fd31c17780f7524b",
+        "android_client_info": {
+          "package_name": "com.sassa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534881027218-7f0db967a24ljdgffbqefssjjjo87su1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sassa",
+            "certificate_hash": "db8b636c7a798db5c5eaa0daea52af63e83a56d1"
+          }
+        },
+        {
+          "client_id": "534881027218-nloim8qh3kakbiluddi8c2mq43pc42v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sassa",
+            "certificate_hash": "78e213d70c0824983e62328b08bc1e5e295a9253"
+          }
+        },
+        {
+          "client_id": "534881027218-0k23t5grdmpdpeq9hl6nm7sdopuqnu1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPCLhYTJDRyaMKmdiOG5b32ECZL9CfbaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534881027218-0k23t5grdmpdpeq9hl6nm7sdopuqnu1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,13 +1,14 @@
 {
   "expo": {
+    "entryPoint": "./index.tsx",
     "name": "grantease",
     "slug": "grantease",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/grantlogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/grantlogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,13 +19,31 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/grantlogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sassa"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/smallapplogo.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2774db80-a8f5-4e0e-90b4-a49e48fe5863"
+      }
     }
   }
 }
